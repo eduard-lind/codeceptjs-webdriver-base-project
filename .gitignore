@@ -1,9 +1,9 @@
 # Don't check auto-generated stuff into git
 output
 node_modules
+.vscode
 
 # Cruft
-.vscode
 npm-debug.log
 yarn-error.log
 debug.log
