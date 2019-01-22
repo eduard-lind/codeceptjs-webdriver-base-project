@@ -4,13 +4,10 @@
   "description": "Demonstrates scenario-driven approach to testing with WebdriverIO and CodeceptJS",
   "main": "TodoMvc_test.js",
   "scripts": {
-    "install:selenium": "npm install -g selenium-standalone@latest",
-    "install:drivers": "selenium-standalone install",
-    "start:serverwin": "selenium-standalone start"
   },
   "devDependencies": {
-    "codeceptjs": "^1.4.6",
-    "webdriverio": "^4.14.1"
+    "codeceptjs": "^2.0.3",
+    "puppeteer": "^1.11.0"
   },
   "author": "Check24",
   "homepage": "https://www.check24.de"
